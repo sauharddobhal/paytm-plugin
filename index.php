@@ -45,7 +45,13 @@ function woocommerce_paytm_init() {
 			$this->channel_id = $this->settings['channel_id'];
 			$this->website = $this->settings['website'];
 			$this->redirect_page_id = $this->settings['redirect_page_id'];
+
 			$this->promo_code_status = $this->settings['promo_code_status'];
+
+
+			$this->promo_code_validation = $this->settings['promo_code_validation'];
+			$this->promo_codes = $this->settings['promo_codes']
+
 
 			// $this->log = $this->settings['log'];
 			$this->msg['message'] = "";
