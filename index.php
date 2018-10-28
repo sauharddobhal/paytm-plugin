@@ -44,7 +44,7 @@ function woocommerce_paytm_init() {
 			$this->industry_type = $this->settings['industry_type'];
 			$this->channel_id = $this->settings['channel_id'];
 			$this->website = $this->settings['website'];
-			
+			$this->redirect_page_id = $this->settings['redirect_page_id'];
 
 			// $this->log = $this->settings['log'];
 			$this->msg['message'] = "";
